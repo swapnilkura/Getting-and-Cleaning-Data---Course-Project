@@ -46,4 +46,4 @@ melteddata <- melt(data, id.vars = c("subjectid", "activity"))
 meanstats <- dcast(melteddata, subjectid + activity ~ variable, mean)
 
 ## dump data into file
-write.table(meanstats, file = "./tidy.txt", quote = F, sep = "|")
+write.table(meanstats, file = "./tidy.txt", quote = F, sep = "|", row.names = F)
