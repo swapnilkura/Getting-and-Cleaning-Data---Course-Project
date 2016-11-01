@@ -1,0 +1,94 @@
+# Code Book
+
+This code book provides brief inforation regading fields in resulting file `tidy.txt`. Generated file contains average(mean) for each variable by each activity and each subject. So, basically there are two identifer fields at start of the file and remaining all fields are means of measurements taken.
+
+## Identifier fields
+  - `subjectid` - ID of test subject(person)
+  - `activity` - ID of type of activity performed by subject. Please find below the mapping between ID and activity:
+    - 1: WALKING
+    - 2: WALKING_UPSTAIRS
+    - 3: WALKING_DOWNSTAIRS
+    - 4: SITTING
+    - 5: STANDING
+    - 6: LAYING
+
+## Measurement fields
+  - tbodyaccmeanx
+  - tbodyaccmeany
+  - tbodyaccmeanz
+  - tbodyaccstdx
+  - tbodyaccstdy
+  - tbodyaccstdz
+  - tgravityaccmeanx
+  - tgravityaccmeany
+  - tgravityaccmeanz
+  - tgravityaccstdx
+  - tgravityaccstdy
+  - tgravityaccstdz
+  - tbodyaccjerkmeanx
+  - tbodyaccjerkmeany
+  - tbodyaccjerkmeanz
+  - tbodyaccjerkstdx
+  - tbodyaccjerkstdy
+  - tbodyaccjerkstdz
+  - tbodygyromeanx
+  - tbodygyromeany
+  - tbodygyromeanz
+  - tbodygyrostdx
+  - tbodygyrostdy
+  - tbodygyrostdz
+  - tbodygyrojerkmeanx
+  - tbodygyrojerkmeany
+  - tbodygyrojerkmeanz
+  - tbodygyrojerkstdx
+  - tbodygyrojerkstdy
+  - tbodygyrojerkstdz
+  - tbodyaccmagmean
+  - tbodyaccmagstd
+  - tgravityaccmagmean
+  - tgravityaccmagstd
+  - tbodyaccjerkmagmean
+  - tbodyaccjerkmagstd
+  - tbodygyromagmean
+  - tbodygyromagstd
+  - tbodygyrojerkmagmean
+  - tbodygyrojerkmagstd
+  - fbodyaccmeanx
+  - fbodyaccmeany
+  - fbodyaccmeanz
+  - fbodyaccstdx
+  - fbodyaccstdy
+  - fbodyaccstdz
+  - fbodyaccmeanfreqx
+  - fbodyaccmeanfreqy
+  - fbodyaccmeanfreqz
+  - fbodyaccjerkmeanx
+  - fbodyaccjerkmeany
+  - fbodyaccjerkmeanz
+  - fbodyaccjerkstdx
+  - fbodyaccjerkstdy
+  - fbodyaccjerkstdz
+  - fbodyaccjerkmeanfreqx
+  - fbodyaccjerkmeanfreqy
+  - fbodyaccjerkmeanfreqz
+  - fbodygyromeanx
+  - fbodygyromeany
+  - fbodygyromeanz
+  - fbodygyrostdx
+  - fbodygyrostdy
+  - fbodygyrostdz
+  - fbodygyromeanfreqx
+  - fbodygyromeanfreqy
+  - fbodygyromeanfreqz
+  - fbodyaccmagmean
+  - fbodyaccmagstd
+  - fbodyaccmagmeanfreq
+  - fbodybodyaccjerkmagmean
+  - fbodybodyaccjerkmagstd
+  - fbodybodyaccjerkmagmeanfreq
+  - fbodybodygyromagmean
+  - fbodybodygyromagstd
+  - fbodybodygyromagmeanfreq
+  - fbodybodygyrojerkmagmean
+  - fbodybodygyrojerkmagstd
+  - fbodybodygyrojerkmagmeanfreq
